@@ -4,8 +4,10 @@ open System
 
 [<EntryPoint>]
 let main argv =
-    Day06.processPart02 |> printfn "%i"
+    //Day06.processPart02 |> printfn "%i"
     //Day06.processPart01 |> printfn "%i"
+    Day05.evaluateSystem 5 |> printfn "%s"
+    //Day05.runDiagnose |> printfn "%s"
     //Day04.processInput 372037 905157 [Day04.hasOnlyPairOfDigits; Day04.onlyIncreasingDigits] |> printfn "%i"
     //Day04.processInput 372037 905157 [Day04.hasAtLeastTwoAdjacentDigits; Day04.onlyIncreasingDigits] |> printfn "%i"
     //Day04.processInputPart1 372037 905157 |> printfn "%i"
